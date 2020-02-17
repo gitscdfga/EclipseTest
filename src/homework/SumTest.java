@@ -8,7 +8,7 @@ public class SumTest {
 		for(i=a;i<=b;i++) {
 			sum += i;
 		}
-		System.out.println(a+"到"+b+"的和为"+sum);
+		System.out.println(a+"dao"+b+"de he wei"+sum);
 		
 	}
 	public static void main(String[] args) {
