@@ -43,11 +43,13 @@ public class LikeABird {
 	public String getName() 
 	{
 		int id = 0;//这个就是局部变量。
+		System.out.println(id+this.name);//不能将这句写在return后面，否则会报错。
 		return id + this.name;//此时“this.name”是用“this”关键字调用类成员变量中的“name”。
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		LikeABird test = new LikeABird();
+		test.getName();
 	}
 
 }
