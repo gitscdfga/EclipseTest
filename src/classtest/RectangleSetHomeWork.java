@@ -18,6 +18,7 @@ public class RectangleSetHomeWork {
 		this.recLength = in.nextDouble();
 		System.out.println("ÇëÊäÈë¾ØĞÎµÄ¿í£º");
 		this.recWide = in.nextDouble();
+		in.close();
 	}
 
 	private void recArea() {
